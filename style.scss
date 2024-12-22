@@ -1,0 +1,17 @@
+$main-color: rgb(0, 12, 36);
+$bg-body: rgb(234, 244, 254);
+$min-width: 22.688rem;
+body {
+  background-color: $bg-body;
+  min-width: $min-width;
+}
+
+.header-top,
+footer {
+  background-color: $main-color;
+}
+
+a button:hover {
+  background-color: $bg-body !important;
+  color: $main-color !important;
+}
