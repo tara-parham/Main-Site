@@ -13,17 +13,26 @@
     <link rel="stylesheet" href="style.css" />
     <title>Tara Parham</title>
   </head>
-  <body class="vh-100">
-    <div
-      class="container-fluid m-0 p-0 vh-100 d-flex flex-column justify-content-between"
+  <body>
+    <!-- Container -->
+    <main
+      class="container-fluid d-flex flex-column justify-content-between vh-100 m-0 p-0"
     >
+      <!-- Top Part of Flex -->
       <div>
-        <header>
-          <div class="header-top text-center">
-            <img src="Assets/Logo.jpg" alt="logo" class="p-2" />
+        <!-- Top Header -->
+        <header class="text-center" dir="rtl">
+          <div class="header-top w-100">
+            <img
+              src="Assets/Logo.jpg"
+              alt="logo"
+              class="py-2 d-inline-block logo position-relative"
+            />
           </div>
+          <!-- Bottom Header / Navbar -->
           <div
-            class="text-center header-bottom d-flex flex-sm-row flex-column justify-content-around bg-black p-2"
+            dir="rtl"
+            class="header-bottom d-flex flex-sm-row flex-column justify-content-around bg-black p-2"
           >
             <a href="index.html">
               <button
@@ -33,7 +42,7 @@
                 صفحه اصلی
               </button>
             </a>
-            <a href="Projects/index.html">
+            <a href="../14 Projects/index.html">
               <button
                 type="button"
                 class="btn text-white border fw-bold px-4 my-2"
@@ -51,6 +60,7 @@
             </a>
           </div>
         </header>
+        <!-- About Me Section -->
         <div class="main p-5 fs-5">
           <h3>درباره من</h3>
           <p>
@@ -76,16 +86,29 @@
             که پروژه‌های انجام‌شده تاکنون، هر کدام بخشی از یک سایت هستند و یک
             پروژه کامل نیستند.
           </p>
-
-          <br />
-          <p></p>
+          <p>
+            کدهای نوشته شده برای این سایت، در GitHub آپلود شده و برای راحتی
+            دسترسی، آدرس آن در قسمت پایینی سایت به همراه آدرس ایمیل موجود است.
+            در این سایت دو Repository به شرح زیر موجود است:
+          </p>
+          <p><strong>Main-Site</strong> که کدهای این صفحه است.</p>
+          <p>
+            <strong dir="ltr">14-Projects</strong> که کدهای پروژه‌های انجام شده
+            است.
+          </p>
         </div>
+        <!-- Bottom Part of Flex -->
       </div>
-      <footer class="w-100 p-2">
-        <p class="text-white text-center m-0">
-          آدرس ایمیل: taraparhamrad@gmail.com
-        </p>
+      <!-- Footer -->
+      <footer class="text-center text-white fs-6 py-3">
+        <p><strong>Email Address:</strong> taraparhamrad@gmail.com</p>
+        <strong>GitHub: </strong
+        ><a
+          href="https://github.com/tara-parham"
+          class="text-decoration-none text-white"
+          >https://github.com/tara-parham</a
+        >
       </footer>
-    </div>
+    </main>
   </body>
 </html>
